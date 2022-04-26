@@ -1,0 +1,54 @@
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.carousel {
+  width: 50rem;
+  height: 53rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-container button {
+  border: none;
+  height: 3rem;
+  background-color: rebeccapurple;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 49%;
+  cursor: pointer;
+}
+
+.buttons-container button:hover {
+  opacity: .9;
+}
+
+.img-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform .5s ease-in-out;
+}
+
+.img-container img {
+  width: 50rem;
+  height: 50rem;
+}
+/*# sourceMappingURL=style.css.map */
