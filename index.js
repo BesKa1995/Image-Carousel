@@ -24,11 +24,8 @@ leftBtn.addEventListener('click', () => {
 
 //stops the auto sliding for each left or rigth button event
 function resetInterval() {
-  clearInterval(interval)
-  setTimeout(() => {
+    clearInterval(interval)
     interval = setInterval(moveImageToRight, 2000)
-  }, animationDuration)
-
 }
 
 
